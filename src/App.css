@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body{
+   /* background: linear-gradient(0deg, rgba(0,0,0,0.9429971817828694) 14%, rgba(255,255,255,0.6796918596540178) 49%, rgba(255,255,255,1) 96%)*/
+}
+.presentacion {margin-top: 42rem;}
+
+.contact-form{
+background-color: #1a1919ba;
+background-image: url("https://cdn.pixabay.com/photo/2014/11/02/14/21/refinery-514010_960_720.jpg");
+background-size: cover;
+max-width: 100%;
+}
+.wave{
+   width: 6000px;
+   height: 195px;
+   position: top;
+ 
+   left: 0;
+       background-color:rgba(0, 0, 0, 0.5);
+
+   background-image: url("../src/assets/img/1.svg");
+   background-position: bottom;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.w1{
+   animation: w1 7s linear infinite;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.w2{
+   animation: w2 7s linear -.125s infinite, desplazamiento 7s ease -.125s infinite;
+  
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+@keyframes w1 {
+   0%{
+       margin-left: 0;
+   }
+   100%{
+       margin-left: -1600px;
+   }
 }
 
-.App-link {
-  color: #61dafb;
-}
+@keyframes desplazamiento {
+   0%, 100%{
+       transform: translateY(-25px);
+   }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+   50%{
+       transform: translateY(10px);
+   }
 }

@@ -1,0 +1,9 @@
+.contact{
+    margin-top: 1rem ;
+    background-size: cover;
+    z-index: 9999;
+    background-color:rgba(0,0,0,0.63);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+    opacity: 0.8;
+    padding-top: 5rem;
+}

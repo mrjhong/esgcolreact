@@ -1,0 +1,39 @@
+
+
+
+.service {
+	padding-top: 90px;
+	padding-bottom: 60px;
+	background: #131313;
+	margin-top: 90px;
+}
+
+.service .titlepage span {
+	color: #3d3c3c
+}
+
+.service .titlepage {
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.service .titlepage h4 {
+	padding: 0px 0px 6px 0px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #0cd3d3;
+	line-height: 46px;
+	border-bottom: #0cd3d3 solid 1px;
+	width: 30rem;
+	margin: 0 auto;
+	margin-bottom: 0px;
+	margin-bottom: 20px;
+}
+
+
+.service .titlepage h4:hover {
+	color: #1ffafa;
+	
+}
+
+
