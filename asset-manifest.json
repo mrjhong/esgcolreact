@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/esgcolreact/static/css/main.0e945706.css",
+    "main.js": "/esgcolreact/static/js/main.f6cff448.js",
+    "static/js/787.7121f96f.chunk.js": "/esgcolreact/static/js/787.7121f96f.chunk.js",
+    "static/media/corregido.mp4": "/esgcolreact/static/media/corregido.64dbe9019e83e5cd1d77.mp4",
+    "static/media/Water3.mp4": "/esgcolreact/static/media/Water3.0c74a338c0a37a166e86.mp4",
+    "static/media/p2.jpg": "/esgcolreact/static/media/p2.c1a572abd1df2899f25a.jpg",
+    "static/media/p3.webp": "/esgcolreact/static/media/p3.a2765ae4b4a1324d1349.webp",
+    "static/media/p1.webp": "/esgcolreact/static/media/p1.e7d53caaeb8779247807.webp",
+    "index.html": "/esgcolreact/index.html",
+    "static/media/1.svg": "/esgcolreact/static/media/1.de0122917c62cbe6680e.svg",
+    "main.0e945706.css.map": "/esgcolreact/static/css/main.0e945706.css.map",
+    "main.f6cff448.js.map": "/esgcolreact/static/js/main.f6cff448.js.map",
+    "787.7121f96f.chunk.js.map": "/esgcolreact/static/js/787.7121f96f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0e945706.css",
+    "static/js/main.f6cff448.js"
+  ]
+}
