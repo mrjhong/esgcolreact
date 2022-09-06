@@ -1,4 +1,4 @@
-.lightboxOverlay {
+/*.lightboxOverlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -7,7 +7,7 @@
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
     opacity: 0.8;
     display: none;
-}
+}*/
 .Text-Head{
     padding: 0;
     height: 100%;
@@ -16,7 +16,7 @@
     align-items: center;
     flex-direction: column;
     color: white;
-    z-index: 3;
+   /* z-index: 3;*/
 }
 .header-overlay {
     width: 100%;
@@ -25,7 +25,7 @@
     top: 0;
     left: 0;
     background: #486081;
-    z-index: 1;
+    /*z-index: 1;*/
     /*opacity: .99;*/
     background: rgba(0, 0, 0, 0.2);
 }
@@ -39,18 +39,15 @@
 
 }
 .header-video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 101%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     overflow: hidden;
-    z-index: 1;
+    /*z-index: 1;*/
 }
 
 .header-video video {
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 100vw;
+    min-height: 100vh;
 }
 
 @keyframes typing {

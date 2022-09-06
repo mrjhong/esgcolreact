@@ -8,18 +8,18 @@ import $ from 'jquery';
 export class Ocean extends Component {
     componentDidMount() {
         //descomentar para efecto de ondas
-        $('.header-overlay').ripples({
+        /*$('.header-overlay').ripples({
             resolution: 512,
             dropRadius: 20,
             perturbance: 0.01,
-        });
+        });*/
     }
     render() {
 
         return (
-            <div>
+            <div className='container'>
 
-                <div class="embed-responsive embed-responsive-16by9 header-video">
+                <div class="header-video">
                     <video autoplay="true" loop="true" muted playsinline class="embed-responsive-item" src={ocean} type="video/mp4" allowfullscreen />
                 </div>
                 <div class="header-overlay">

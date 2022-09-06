@@ -14,26 +14,29 @@ function App() {
       <header className="App-header">
         <Navbar/>
       </header>
-      <div className='container'>
+     
+        
+      <div className='row ocean'>
          <Ocean/>
         </div>
         <div className='container presentacion'>
          <Presentation/>
         </div>
         
-        <div className='container'>
+        <div className='row'>
          <Productos/>
         </div>
       
       <div className='container contact-form'>
          <Contact/>
-         <div class="wave w1"></div>
+         
         </div>
         
 
         <footer>
         <Footer/>
       </footer>
+      
       </body>
   
 

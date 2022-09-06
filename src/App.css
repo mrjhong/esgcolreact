@@ -1,8 +1,8 @@
 body{
    /* background: linear-gradient(0deg, rgba(0,0,0,0.9429971817828694) 14%, rgba(255,255,255,0.6796918596540178) 49%, rgba(255,255,255,1) 96%)*/
 }
-.presentacion {margin-top: 42rem;}
 
+.ocean{margin-bottom: 4rem;}
 .contact-form{
 background-color: #1a1919ba;
 background-image: url("https://cdn.pixabay.com/photo/2014/11/02/14/21/refinery-514010_960_720.jpg");
@@ -30,7 +30,7 @@ max-width: 100%;
   
 }
 
-
+/*
 
 @keyframes w1 {
    0%{
@@ -50,3 +50,4 @@ max-width: 100%;
        transform: translateY(10px);
    }
 }
+*/
